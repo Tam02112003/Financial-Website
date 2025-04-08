@@ -1,0 +1,9 @@
+package com.nhom4.financial.dto;
+
+import lombok.Data;
+
+@Data
+public class LoginRequest {
+    private String username;
+    private String password;
+}
